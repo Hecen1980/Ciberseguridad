@@ -1,0 +1,128 @@
+h1{
+    display: flex;
+     align-items: center;
+     color: #93BFB7;
+    }
+.banner {
+    height: 500px;
+   
+    background:#387373;
+    
+}
+
+.navbar {
+background: #2D3E40;
+}
+.logotipo-footer{
+    height:25% ;
+    width: 25%;
+    opacity: 50%;
+}
+.footer {
+    display:flex;
+    justify-content: space-evenly;
+   
+}
+.redes-sociales {
+    background-color: #2D3E40;
+    width:30%;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;;
+}
+.info-empresa {
+    background-color: #2D3E40;
+    width:30%;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.presentacion-empresa {
+    border-top:  #93BFB7;
+    border-style:double;
+    border-left: 10px;
+    border-right: 10px;
+    border-bottom: 10px;
+    text-align: justify;
+    font-size: x-small;
+    padding-top: 5px;
+    color: #93BFB7;
+}
+.imagen {
+    display:flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.pagina {
+    background-color: #93BFB7;
+}
+.derechos-reservados {
+    background-color: #2D3E40;
+    width:30%;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.title-rs {
+    display: flex;
+    color: #93BFB7;
+    justify-content: center;
+}
+.wp {
+    color: #93BFB7;
+    margin-left: 10px;
+    font-size: x-small;
+display: flex;
+justify-content: center;
+padding-top: 10px;    
+}
+.w {
+display: flex;
+flex-direction: row;
+height: 5vh;
+
+
+
+
+}
+.g {
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+}
+.gp {
+    color: #93BFB7;
+    margin-left: 10px;
+display: flex;
+justify-content: center;
+font-size: x-small;   
+padding-top: 10px; 
+}
+.dr {
+    color: #93BFB7;
+    margin-left: 10px;
+display: flex;
+justify-content: center;
+font-size: x-small;   
+padding: 10px; 
+}
+.img-cr {
+background-color:  #2D3E40;
+height: 30%;
+display: flex;
+justify-content: center;
+
+}
+.pcr {
+    display: flex;
+  justify-content: center;
+    height: 50%;
+    align-items: flex-end;
+}
+.iconos {
+    list-style: none;
+}
