@@ -1,8 +1,12 @@
+
 h1{
     display: flex;
      align-items: center;
      color: #93BFB7;
     }
+.logo {
+    opacity: 100%;
+}
 .banner {
     height: 500px;
    
@@ -126,3 +130,43 @@ justify-content: center;
 .iconos {
     list-style: none;
 }
+
+#contact {
+	padding: 90px 0;
+	background:#93BFB7;
+}
+
+#contact h2 {
+    display: flex;
+    justify-content: center;
+	padding: 50px;
+    color:#2D3E40;
+}
+
+.contact-form {
+	background: #2D3E40;
+	width: 50%;
+	margin: 20px auto;
+	padding: 70px 50px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h5 {
+	text-align: center;
+	padding-bottom: 40px;
+	font-weight: 900;
+    color: #93BFB7;
+
+}
+
+.contact-form button {
+	width: 100%;
+
+}
+.form-group{
+    color: #93BFB7;
+}
+.label {
+    color: #93BFB7;
+}   
