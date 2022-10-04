@@ -1,36 +1,58 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+/* Se importa familia de fuente desde google fonts para dar estilo al título del navbar*/
 
 h1{
+    /* Se da estilo a la fuente, cambiando color, alineando elemento con la propiedad de flexbox,
+    finalmente se hace uso de la fuente importada */
     display: flex;
      align-items: center;
      color: #93BFB7;
      font-family: 'Black Ops One', cursive;
     }
+    
+
 .logo {
-    opacity: 100%;
+    /* Se llama la clase logo para dar transparencia a la imagen insertada dentro del navbar */
+    opacity: 30%;
 }
 .banner {
-    height: 500px;
-   
-    background:#387373;
+    /* Se llama a la clase banner que se refiere al container, 
+    para definir altura, imagen de fondo y alineación de elementos */
     
-}
+    width: 99%;
+    height: 450px;
+    background-image: url("img/big-data.jpg");
+    padding-top: 3px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+   
+    }
+    
+
 
 .navbar {
-    
+    /*Se dan estilos al Navbar específicamente coolor de fondo */
     background: linear-gradient(180deg, #2b8f80 0, #247f76 16.67%, #206c69 33.33%, #1f5959 50%, #1e4648 66.67%, #1c3638 83.33%, #1a282a 100%);
 }
 .logotipo-footer{
+    /*Se defienen altura, y porcentaje de opacidad del logotipo o imagen de la empresa*/
     height:25% ;
     width: 25%;
     opacity: 50%;
 }
 .footer {
+    /*Se usa la propiedad de flexbox para alinear los containers definidos
+     dentro del container padre Footer*/
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+
    
 }
 .redes-sociales {
+    /*Se le da estilos de fondo de color, ancho y propiedades de alineación más el estilo del borde del
+    container hijo*/
     background:linear-gradient(180deg, #2b8f80 0, #247f76 16.67%, #206c69 33.33%, #1f5959 50%, #1e4648 66.67%, #1c3638 83.33%, #1a282a 100%);
     width:30%;
     flex-direction: column;
@@ -38,6 +60,9 @@ h1{
     border-radius: 10px;;
 }
 .info-empresa {
+    /*Se le da estilos de fondo de color, ancho y propiedades de alineación más el estilo del borde
+     del container hijo*/
+
     background:linear-gradient(180deg, #2b8f80 0, #247f76 16.67%, #206c69 33.33%, #1f5959 50%, #1e4648 66.67%, #1c3638 83.33%, #1a282a 100%);
     width:30%;
     flex-direction: column;
@@ -46,6 +71,9 @@ h1{
 
 }
 .presentacion-empresa {
+    /*Se le dan estilos al párrafo, ajustándolo dentro del container
+     de la clase información de la empresa */
+
     border-top:  #93BFB7;
     border-style:double;
     border-left: 10px;
@@ -54,18 +82,27 @@ h1{
     text-align: justify;
     font-size: x-small;
     padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     color: #93BFB7;
 }
 .imagen {
+    /*Estilos de alineación para la imagen dentro del container de la información de la empresa.*/
+
     display:flex;
     justify-content: center;
     padding-bottom: 5px;
     padding-top: 5px;
 }
 .pagina {
+    /*Se llama a la clase página que correspnde al container
+     del body para aplicar estilo de color de fondo a la página*/
+
     background-color: #93BFB7;
 }
 .derechos-reservados {
+    /*Se le da estilos de fondo de color, ancho y propiedades de alineación más el estilo del borde
+     del container hijo*/
     background:linear-gradient(180deg, #2b8f80 0, #247f76 16.67%, #206c69 33.33%, #1f5959 50%, #1e4648 66.67%, #1c3638 83.33%, #1a282a 100%);
     width:30%;
     flex-direction: column;
@@ -75,11 +112,15 @@ h1{
     flex-direction: column;
 }
 .title-rs {
+    /*Se aplica estilos de alineación con la propiedad de flexbox, se da estilo de color a la 
+    fuente del título del container de derechos reservados*/
     display: flex;
     color: #93BFB7;
     justify-content: center;
 }
 .wp {
+    /*Se le da estilos  de color de fuente, tamaño, alineación a la información de  de whatsapp
+     y margen con respecto al container hijo */
     color: #93BFB7;
     margin-left: 10px;
     font-size: x-small;
@@ -88,6 +129,7 @@ justify-content: center;
 padding-top: 10px;    
 }
 .w {
+    /*Etilos aplicados al icono de whatsapp*/
 display: flex;
 flex-direction: row;
 height: 5vh;
@@ -97,11 +139,14 @@ height: 5vh;
 
 }
 .g {
+    /*Etilos aplicados al icono de gmail*/
     display: flex;
     flex-direction: row;
     height: 5vh;
 }
 .gp {
+    /*Se le da estilos  de color de fuente, tamaño, alineación a la información de correo y margen
+     con respecto al container hijo */
     color: #93BFB7;
     margin-left: 10px;
 display: flex;
@@ -110,6 +155,7 @@ font-size: x-small;
 padding-top: 10px; 
 }
 .dr {
+    /*Se aplican estilos al parrafo ubicado dentor del container de derechos reservados */
     color: #93BFB7;
     margin-left: 10px;
 display: flex;
@@ -118,6 +164,8 @@ font-size: x-small;
 padding: 10px; 
 }
 .img-cr {
+    /*Se dan estilos de color, alineación con propiedad flexbox, y alura a
+     mini container ubicado dentro del container de derchos resrvados */
 background: linear-gradient(180deg, #2b8f80 0, #247f76 16.67%, #206c69 33.33%, #1f5959 50%, #1e4648 66.67%, #1c3638 83.33%, #1a282a 100%);
 height: 30%;
 display: flex;
@@ -125,16 +173,23 @@ justify-content: center;
 
 }
 .pcr {
+    /*Estilos de alineación al container de la lase pcr */
     display: flex;
   justify-content: center;
     height: 50%;
     align-items: flex-end;
 }
+
 .iconos {
+    /*Se aplican estilo para quitar los puntos que hacen 
+    de viñetas en la parte izquierda de los iconos whatsapp y 
+    gmail, ya que se colocaron allí mediante la propiedad li */
     list-style: none;
 }
-
+/*EN adelante son los estilos aplicados al formulario de contacto, tales como
+estilo de fuente, fondos y alineación empleando flexbox */
 #contact {
+
 	padding: 90px 0;
 	background:#93BFB7;
 }
@@ -172,16 +227,28 @@ justify-content: center;
 }
 .label {
     color: #93BFB7;
-}   
+}  
+
+
 
 .nav-link {
+    /*Se aplica color a la fuente de los nav links*/
     color:#93BFB7;
 }
 .carousel {
+    /*Se de altura al container del carrusel de imágenes de la página de ataques*/
     height: 500px;
 }
 
 .d-block {
+    /*Se da estilo de altura y ancho a los container contenidos
+     en el carrusel de página de Ataques.*/
     width: 500px;
     height: 500px;
+}
+.banner {
+    /*Se aplica padding para establece una alineación agrdable de container 
+    de la clase banner ubicado en la pagina index */
+    padding: 0.5%;
+padding-left: 0.8%;
 }
