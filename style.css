@@ -18,12 +18,16 @@ h1{
 }
 .banner {
     /* Se llama a la clase banner que se refiere al container, para definir altura y color de fondo */
-    width: 1700px;
-    height: 400px;
+    width: 99%;
+    height: 450px;
     background-image: url("img/banner_ciberseguridad.jpg");
     padding-top: 3px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
    
     }
+    
 
 
 .navbar {
@@ -37,7 +41,8 @@ h1{
 }
 .footer {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+
    
 }
 .redes-sociales {
