@@ -177,3 +177,11 @@ justify-content: center;
 .nav-link {
     color:#93BFB7;
 }
+.carousel {
+    height: 500px;
+}
+
+.d-block {
+    width: 500px;
+    height: 500px;
+}
