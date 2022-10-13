@@ -7,14 +7,20 @@ h1{
     finalmente se hace uso de la fuente importada */
     display: flex;
      align-items: center;
-     color: #93BFB7;
+     color: #ffff;
      font-family: 'Black Ops One', cursive;
+     padding-top: 5px;
     }
     
 
 .logo {
     /* Se llama la clase logo para dar transparencia a la imagen insertada dentro del navbar */
-    opacity: 30%;
+    opacity: 80%;
+    
+}
+
+.d-inlne-block{
+   border-radius: 20px; 
 }
 .banner {
     /* Se llama a la clase banner que se refiere al container, 
@@ -23,7 +29,7 @@ h1{
     width: 99%;
     height: 450px;
     background-image: url("img/big-data.jpg");
-    padding-top: 3px;
+    margin-top: 5px;
     display: flex;
     justify-content:center;
     align-items: flex-end;
@@ -34,13 +40,17 @@ h1{
 
 .navbar {
     /*Se dan estilos al Navbar específicamente coolor de fondo */
-    background: linear-gradient(180deg, #2b8f80 0, #247f76 16.67%, #206c69 33.33%, #1f5959 50%, #1e4648 66.67%, #1c3638 83.33%, #1a282a 100%);
+    background:  linear-gradient(90deg, rgba(12,14,12,1) 31%, rgba(48,48,60,0.8869683615633753) 71%);
+    height: 7.5vh;
 }
 .logotipo-footer{
     /*Se defienen altura, y porcentaje de opacidad del logotipo o imagen de la empresa*/
-    height:25% ;
-    width: 25%;
-    opacity: 50%;
+    height: 80px;
+    width: 80px ;
+    opacity: 80%;
+    border-radius: 20px;
+    margin-left: 5px;
+    
 }
 .footer {
     /*Se usa la propiedad de flexbox para alinear los containers definidos
@@ -53,38 +63,40 @@ h1{
 .redes-sociales {
     /*Se le da estilos de fondo de color, ancho y propiedades de alineación más el estilo del borde del
     container hijo*/
-    background:linear-gradient(180deg, #2b8f80 0, #247f76 16.67%, #206c69 33.33%, #1f5959 50%, #1e4648 66.67%, #1c3638 83.33%, #1a282a 100%);
+    background:linear-gradient(90deg, rgba(12,14,12,1) 31%, rgba(48,48,60,0.8869683615633753) 71%);
     width:30%;
     flex-direction: column;
-    margin: 10px;
+    margin: 40px;
     border-radius: 10px;;
 }
 .info-empresa {
     /*Se le da estilos de fondo de color, ancho y propiedades de alineación más el estilo del borde
      del container hijo*/
 
-    background:linear-gradient(180deg, #2b8f80 0, #247f76 16.67%, #206c69 33.33%, #1f5959 50%, #1e4648 66.67%, #1c3638 83.33%, #1a282a 100%);
+    background:linear-gradient(90deg, rgba(12,14,12,1) 31%, rgba(48,48,60,0.8869683615633753) 71%);
     width:30%;
     flex-direction: column;
-    margin: 10px;
+    margin: 40px;
     border-radius: 10px;
+    display:flex;
+    align-items: flex-start;
 
 }
 .presentacion-empresa {
     /*Se le dan estilos al párrafo, ajustándolo dentro del container
      de la clase información de la empresa */
 
-    border-top:  #93BFB7;
+    border-top:  #30303c;
     border-style:double;
-    border-left: 10px;
-    border-right: 10px;
-    border-bottom: 10px;
+    border-left: 5px;
+    border-right: 5px;
+    border-bottom: 5px;
     text-align: justify;
     font-size: x-small;
     padding-top: 5px;
     padding-left: 5px;
-    padding-right: 5px;
-    color: #93BFB7;
+    padding-right: 200px;
+    color: #ffff;
 }
 .imagen {
     /*Estilos de alineación para la imagen dentro del container de la información de la empresa.*/
@@ -97,31 +109,31 @@ h1{
 .pagina {
     /*Se llama a la clase página que correspnde al container
      del body para aplicar estilo de color de fondo a la página*/
-
-    background-color: #93BFB7;
+ background: #30303c;
 }
 .derechos-reservados {
     /*Se le da estilos de fondo de color, ancho y propiedades de alineación más el estilo del borde
      del container hijo*/
-    background:linear-gradient(180deg, #2b8f80 0, #247f76 16.67%, #206c69 33.33%, #1f5959 50%, #1e4648 66.67%, #1c3638 83.33%, #1a282a 100%);
+    background:linear-gradient(90deg, rgba(12,14,12,1) 31%, rgba(48,48,60,0.8869683615633753) 71%);
     width:30%;
     flex-direction: column;
-    margin: 10px;
+    margin: 40px;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 .title-rs {
     /*Se aplica estilos de alineación con la propiedad de flexbox, se da estilo de color a la 
     fuente del título del container de derechos reservados*/
     display: flex;
-    color: #93BFB7;
-    justify-content: center;
+    color: #ffff;
+    justify-content: star;
+    margin-left: 5px;
 }
 .wp {
     /*Se le da estilos  de color de fuente, tamaño, alineación a la información de  de whatsapp
      y margen con respecto al container hijo */
-    color: #93BFB7;
+    color: #ffff;
     margin-left: 10px;
     font-size: x-small;
 display: flex;
@@ -147,7 +159,7 @@ height: 5vh;
 .gp {
     /*Se le da estilos  de color de fuente, tamaño, alineación a la información de correo y margen
      con respecto al container hijo */
-    color: #93BFB7;
+    color:  #ffff;
     margin-left: 10px;
 display: flex;
 justify-content: center;
@@ -156,26 +168,42 @@ padding-top: 10px;
 }
 .dr {
     /*Se aplican estilos al parrafo ubicado dentor del container de derechos reservados */
-    color: #93BFB7;
+    color:  #ffff;
     margin-left: 10px;
 display: flex;
-justify-content: center;
-font-size: x-small;   
+justify-content:start;
+font-size: x-small;
+margin-left: 10px;   
 padding: 10px; 
+}
+.dr2{
+ color:#ffff;
+ margin-bottom: 2px;
+ margin-right: 1px;
+ padding-left: 1px;
+ font-size: x-small;   
 }
 .img-cr {
     /*Se dan estilos de color, alineación con propiedad flexbox, y alura a
      mini container ubicado dentro del container de derchos resrvados */
-background: linear-gradient(180deg, #2b8f80 0, #247f76 16.67%, #206c69 33.33%, #1f5959 50%, #1e4648 66.67%, #1c3638 83.33%, #1a282a 100%);
+background: linear-gradient(90deg, rgba(12,14,12,1) 31%, rgba(48,48,60,0.8869683615633753) 71%);
 height: 30%;
 display: flex;
 justify-content: center;
+align-items: flex-end;
 
 }
 .pcr {
     /*Estilos de alineación al container de la lase pcr */
     display: flex;
-  justify-content: center;
+  justify-content: start;
+    height: 50%;
+    align-items: flex-end;
+}
+
+.pcr2{
+    display: flex;
+  justify-content: start;
     height: 50%;
     align-items: flex-end;
 }
@@ -191,7 +219,7 @@ estilo de fuente, fondos y alineación empleando flexbox */
 #contact {
 
 	padding: 90px 0;
-	background:#93BFB7;
+	background:#2D3E40;
 }
 
 #contact h2 {
@@ -202,19 +230,19 @@ estilo de fuente, fondos y alineación empleando flexbox */
 }
 
 .contact-form {
-	background:linear-gradient(180deg, #2b8f80 0, #247f76 16.67%, #206c69 33.33%, #1f5959 50%, #1e4648 66.67%, #1c3638 83.33%, #1a282a 100%);
+	background:linear-gradient(90deg, rgba(12,14,12,1) 31%, rgba(48,48,60,0.8869683615633753) 71%);
 	width: 50%;
 	margin: 20px auto;
 	padding: 70px 50px;
 	border-radius: 20px;
-	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 10px 10px 10px  #ffff;
 }
 
 .contact-form h5 {
 	text-align: center;
 	padding-bottom: 40px;
 	font-weight: 900;
-    color: #93BFB7;
+    color: #ffff;
 
 }
 
@@ -223,17 +251,17 @@ estilo de fuente, fondos y alineación empleando flexbox */
 
 }
 .form-group{
-    color: #93BFB7;
+    color: #ffff;
 }
 .label {
-    color: #93BFB7;
+    color: #ffff;
 }  
 
 
 
 .nav-link {
     /*Se aplica color a la fuente de los nav links*/
-    color:#93BFB7;
+    color:#fff;
 }
 .carousel {
     /*Se de altura al container del carrusel de imágenes de la página de ataques*/
